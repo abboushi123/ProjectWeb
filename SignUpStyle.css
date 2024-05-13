@@ -17,7 +17,7 @@ body{
     background-position: center;
 
 }
-.wrapper{
+.wrapper2{
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255,255,255,.2);
@@ -28,12 +28,12 @@ body{
     padding: 30px 40px;
 
 }
-.wrapper h1{
+.wrapper2 h1{
     font-size: 36px;
     text-align: center;
 
 }
-.wrapper .input-box{
+.wrapper2 .input-box{
     position: relative;
     width: 100%;
     height: 50px;
@@ -63,7 +63,7 @@ body{
     transform: translateY(-50%);
     font-size: 20px;
 }
-.wrapper .Forgot{
+.wrapper2 .Forgot{
     display: flex;
     font-size: 14.5px;
     margin: -15px 0 15px;
@@ -76,7 +76,7 @@ body{
 .Forgot a:hover{
     text-decoration: underline;
 }
-.wrapper  .btn{
+.wrapper2  .btn{
     width: 100%;
     height: 45px;
     background: #ffffff;
@@ -89,7 +89,7 @@ body{
     color: #333;
     font-weight: 600;
 }
-.wrapper .SignUp-link{
+.wrapper2 .SignUp-link{
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;

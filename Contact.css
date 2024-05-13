@@ -70,7 +70,7 @@ body{
 }
 .Forgot a {
     color: #2a21f4;
-text-decoration: none;
+    text-decoration: none;
 
 }
 .Forgot a:hover{
@@ -153,4 +153,24 @@ text-decoration: none;
     position: absolute;
     top: 1px;
     right: 20px;
+}
+.social-icons {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0px;
+
+}
+.social-icons li {
+    display: inline-block;
+
+}
+.social-icons li i {
+
+    color: #000000;
+    padding: 15px;
+    font-size: 50px;
+    border-radius: 22% ;
+    margin: 0px 5px ;
+    cursor: pointer;
+    transition:all 0.5s ;
 }

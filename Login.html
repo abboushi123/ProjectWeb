@@ -6,12 +6,49 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Pets Store_Login </title>
     <link rel="stylesheet" href="LoginStyle.css">
+<!--    <link rel="stylesheet" href="Welcome.css">-->
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="logo-png.png" type="image/x-icon">
 
 </head>
 <body>
- <div class="wrapper">
+<nav class="nav">
+    <div class="nav-logo">
+        <img src='logo-transparent-png.png'>
+    </div>
+
+    <div class="nav-menu">
+        <ul>
+            <li>
+                <a href="HomePage.html" class="link">Home</a>
+            </li>
+            <li>
+                <a href="AboutPage.html" class="link">About</a>
+            </li>
+            <li>
+                <a href="Contact.html" class="link">Contact</a>
+            </li>
+
+        </ul>
+
+        <div class="nav-button">
+<!--            <button class="btn" id="LoginBtn">Login</button>-->
+
+        </div>
+        <script>
+            // Get the button element by its ID
+            var loginBtn = document.getElementById("LoginBtn");
+
+            // Add an event listener for the click event
+            loginBtn.addEventListener("click", function() {
+                // Redirect to the desired URL when the button is clicked
+                window.location.href = "Login.html";
+            });
+        </script>
+    </div>
+</nav>
+ <div class="wrapper1">
 
      <form action="">
 
@@ -50,6 +87,7 @@
 
 
      </form>
+
  </div>
 
 </body>
