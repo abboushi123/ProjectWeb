@@ -7,10 +7,10 @@
 
 }
 body {
-    /*background: url("image/hala1.png");*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed;*/
+    background: url("../image/about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .wrapper {
     display: flex;
@@ -68,14 +68,4 @@ body {
     position: absolute;
     top: 1px;
     right: 20px;
-}
-.nav-menu ._blank li i {
-
-    color: #000000;
-    padding: 15px;
-    font-size: 50px;
-    border-radius: 22% ;
-    margin: 0px 5px ;
-    cursor: pointer;
-    transition:all 0.5s ;
 }
