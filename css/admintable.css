@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("../image/as2.jpg") no-repeat;
+    /*background: url("../image/as2.jpg") no-repeat;*/
     background-size: cover ;
     background-position: center;
 
@@ -70,7 +70,7 @@ body{
 }
 .Forgot a {
     color: #2a21f4;
-text-decoration: none;
+    text-decoration: none;
 
 }
 .Forgot a:hover{
@@ -88,7 +88,7 @@ text-decoration: none;
     font-size: 16px;
     color: #333;
     font-weight: 600;
-
+    margin: 20px 0 20px;
 }
 
 
@@ -151,9 +151,31 @@ text-decoration: none;
     border-radius: 30px ;
     cursor: pointer;
     transition: .3s ease;
+
 }
 .nav-button {
     position: absolute;
     top: 1px;
     right: 20px;
+}
+.wrapper1 .input-file{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin:  0;
+
+
+}
+.input-file  input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255,0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+
 }

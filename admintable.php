@@ -24,8 +24,9 @@
                 <li><a href="about1.html" class="link">About</a></li>
                 <li><a href="contact1.html" class="link">Contact</a></li>
                 <li><a href="shop1.html" class="link">Catalog</a></li>
+                <li><a href="admintable.php" class="link">View table</a></li>
                 <li ><a href="cartItem.html"><i class='bx bxs-cart cart-icon' style="font-size: 40px; color: black;    position: relative; margin-top:27px ; "></i>
-                    <span class="quantity" style=" background-color: red;
+                        <span class="quantity" style=" background-color: red;
                           color: #ffffff;
                           border-radius: 50%;
                           padding: 0 8px;
@@ -34,7 +35,7 @@
                           top: -30px;
                           left: -20px;
 ">0</span>
-                </a>  </li>
+                    </a>  </li>
             </ul>
             <div class="nav-button">
                 <button class="btn" id="Logout">LogOut</button>
@@ -57,21 +58,21 @@
 <section class="sec">
     <div class="product">
 
-      <div class="card">
-          <div class="img" ><img src="image/dog.png" alt=""></div>
-<!--          <div class="desc">Dogs</div>-->
-          <div class="title">Dogs</div>
-          <div class="box">
-              <button class="btn" id="dogs">Start shopping</button>
-          </div>
-      </div>
+        <div class="card">
+            <div class="img" ><img src="image/dog.png" alt=""></div>
+            <!--          <div class="desc">Dogs</div>-->
+            <div class="title">Dogs</div>
+            <div class="box">
+                <button class="btn" id="dogs">View table</button>
+            </div>
+        </div>
 
         <div class="card">
             <div class="img" ><img src="image/cat.png" alt=""></div>
             <!--          <div class="desc">Dogs</div>-->
             <div class="title">Cats</div>
             <div class="box">
-                <button class="btn" id="cats">Start shopping</button>
+                <button class="btn" id="cats">View table</button>
 
             </div>
         </div>
@@ -82,7 +83,7 @@
             <!--          <div class="desc">Dogs</div>-->
             <div class="title">Food</div>
             <div class="box">
-                <button class="btn" id="food">Start shopping</button>
+                <button class="btn" id="food">View table</button>
             </div>
         </div>
 
@@ -92,7 +93,7 @@
             <!--          <div class="desc">Dogs</div>-->
             <div class="title">Accessorise</div>
             <div class="box">
-                <button class="btn" id="Acs">Start shopping</button>
+                <button class="btn" id="Acs">View table</button>
 
             </div>
         </div>
